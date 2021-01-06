@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header_navbar {
+   margin: 50px 120px;
+   text-align: right;
+ 
+}
+
+.header_navbar a {
+  
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+section {
+    height: 650px;
+    margin-bottom: 50px;
+    
+}
+
+p{
+    font-size: 21px;
+}
+
+h1.x_font {
+font-family:'Bebas Neue', cursive;
+font-size: 70px;
+font-weight: 400;
+}
+.middle_font{
+    font-weight: 400;
+    font-size:60px ;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.violet_colour {
+    color: #363958;
+
+}
+
+.orange_colour {
+    color: tomato;
+}
+
+
+.btn {
+    display: inline-block;
+    margin: 9% 0;
+    text-decoration: none; 
+    padding: 20px 50px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(135deg,rgb(214, 54, 14),rgb(245, 128, 108));
+}
+
+#cv_btn {
+    background-image: linear-gradient(45deg,rgb(68, 31, 20),rgb(255, 51, 16));
+}
+
+.half-width {
+    float: left;
+    width: 30%;
+    margin:4% 8% 10% 10%;
+}
+.half-width img {
+    width: 100%;
+}
+
+.project_part {
+    background-color: #E5E5E5;
+    height: 740px;
+    margin-bottom: 5%;
+}
+.project_part_top h1{
+   padding: 4% 0;
+}
+
+.demo_site {
+    float: left;
+    width: 20%;
+    height: 450px;
+    padding:1%;
+    box-shadow:5px 5px 9px rgb(221, 255, 251) ;
+    margin-left: 8%;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.demo_site img {
+    width: 100%;
+  
+}
+
+ 
+
+.client_pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 5px rgb(178, 113, 238);
+    padding: 7%;
+
+}
+.client1 {
+    float: left;
+    width: 15%;
+    height: 440px;
+    padding:3% 2%;
+    box-shadow:5px 5px 9px rgb(221, 255, 251) ;
+    margin-left: 8%;
+    border-radius: 5%;
+    background-color: white;
+    text-align: center;
+    border: .1px solid rgb(99, 124, 128);   
+}
+.client2 {
+    float: left;
+    width: 20%;
+    height: 485px;
+    padding:3% 2%;
+    box-shadow:5px 5px 9px rgb(221, 255, 251) ;
+    margin-left: 8%;
+    border-radius: 5%;
+    background-color: white;
+    text-align: center;
+    border: .1px solid rgb(99, 124, 128);
+}
+.client3 {
+    float: left;
+    width: 15%;
+    height:520px;
+    padding:3% 2%;
+    box-shadow:5px 5px 9px rgb(221, 255, 251) ;
+    margin-left: 8%;
+    border-radius: 5%;
+    background-color: white;
+    text-align: center;
+    border: .1px solid rgb(99, 124, 128);
+}
+
+.client_review_para {
+    padding: 5%;
+}
+ 
+.done_site {
+    font-size:50px;
+    font-family:'Bebas Neue', cursive;
+    font-weight: 300;
+    margin-bottom: 7%;
+}
+
+.chat_part {
+    height: 350px;
+    color: white;
+    background-image:url("shapes/Group_33094_1.png"); 
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin:5% 15%;
+}
+ 
+.skills_part {
+    height: 200px;
+    margin:8% 15%;
+    
+}
+.first_skill {
+    float: left;
+    width: 25%;
+    height: 40px;
+    padding: 4% 0;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 40px 0 0 40px;
+    background-color:  #E5E5E5;
+    font-size: 30px;
+     
+
+}
+.skill_tag {
+    float: left;
+    width: 20%;
+    height: 120px;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: 2px solid rgb(19, 211, 218);
+    background-color: rgb(105, 238, 231);
+    border-radius: 0 14px 0 14px;
+}
+.second_skill {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-left: 10%;
+    border: 1px solid orange;
+    height: 40px;
+    padding: 4% 0;
+    border-radius:0 40px 40px 0;
+    background-color:  #E5E5E5;
+    font-size: 30px;
+}
+.form{
+    height: 350px;
+    margin:0 0 20% 25%;
+    
+}
+label {
+    font-size:20px;
+}
+input ,textarea {
+    font-size: 20px;
+    padding: 8px 10px;
+    margin:1%;
+    text-align: left;
+    width: 60%;
+    border: .5px solid rgb(226, 220, 141);
+    color:black;
+}
+input:focus,textarea:focus {
+    background-color: rgba(211, 245, 19, 0.911);
+}
+
+#submit {
+    width:10%;
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: yellow;
+}
+footer {
+    text-align:center;
+}
+footer img {
+    width:2%;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+footer h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+ 
+footer h3 {
+    font-size: 35px;
+    margin: 1%;
+}
